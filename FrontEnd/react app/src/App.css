@@ -1,0 +1,27 @@
+
+
+
+body
+{
+ 
+}
+
+#box
+{
+  margin-left:30%;
+  margin-top: 15%;
+  width: 40%;
+  background-color: azure;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+#dropDown{
+  margin-left:35%;
+  margin-top: 15%;
+  width: 20%;
+  background-color: azure;
+  padding: 50px;
+  border-radius: 10px;
+  /* text-align: center; */
+}
