@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+
+    <script src="../../js/httpRequest.js"></script>
+    <script src="../../js/logOut.js"></script>
+
+    <link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body onload="BookingStatus();">
+    <h4>Welcome Admin</h4> 
+
+    <input type="submit" value = "LogOut" onclick="AdminlogOut();"><br><br>
+   
+    <a href="progressStatus.html">Inprogress</a> ||  
+    <a href="pendingBookings.html">Pending</a> ||
+    <a href="deliveredList.html">Out For Delivery</a> ||
+    <a href="showOutForDeliver.html">Completed Service</a> ||
+
+    <hr>
+
+    <h4>All Bookings</h4>
+
+    <div class="main-container">   </div>
+</body>
+</html>
